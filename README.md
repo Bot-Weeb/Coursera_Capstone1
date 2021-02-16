@@ -74,6 +74,7 @@ After that is done we start onehot encoding to convert types of venues to percen
 The map below is a folium map that is the result of k-means clustering applied to the merged dataset shown in the data collection portion.
 
 (If interested in seeing all code line by line there will be an ipynb file on full steps taken to achieve this and everything in data collections.)
+https://github.com/Bot-Weeb/Coursera_Capstone1/blob/main/Coursera_Applied_data_Science_capstone.ipynb
 
 
 ![github-medium](https://github.com/Bot-Weeb/Coursera_Capstone1/blob/main/assets/map.JPG)
