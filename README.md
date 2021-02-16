@@ -48,11 +48,16 @@ requests: works with http requests
 # Data Collection
 
 We begin with collecting the required data for toronto. We need to start by scrapeing our pages to create a complete merged datset.
+
+
 ![github-small](https://github.com/Bot-Weeb/Coursera_Capstone1/blob/main/assets/Part%201%20of%20Merged%20dataset.JPG)
+
 
 ![github-small](https://github.com/Bot-Weeb/Coursera_Capstone1/blob/main/assets/part%202%20of%20merged%20dataset.JPG)
 
 We cleaned the dataset so that way there are no missing or duplicated values and the result is as follows.
+
+
 ![github-small](https://github.com/Bot-Weeb/Coursera_Capstone1/blob/main/assets/merged%20dataset%20result.JPG)
 
 We utilize the foursquare API using client ID and then get nearby venues. Because we are using lattitude and longitude to show off venues we know that there will be 0 duplicates.
@@ -60,6 +65,8 @@ We utilize the foursquare API using client ID and then get nearby venues. Becaus
 ![github-medium](https://github.com/Bot-Weeb/Coursera_Capstone1/blob/main/assets/nearby%20venues.JPG)
 
 After that is done we start onehot encoding to convert types of venues to percentages. Follow that up by grouping by neighbourhood and create the following table.
+
+
 ![github-small](https://github.com/Bot-Weeb/Coursera_Capstone1/blob/main/assets/top%2010.JPG)
 
 # Visualization
@@ -67,6 +74,8 @@ After that is done we start onehot encoding to convert types of venues to percen
 The map below is a folium map that is the result of k-means clustering applied to the merged dataset shown in the data collection portion.
 
 (If interested in seeing all code line by line there will be an ipynb file on full steps taken to achieve this and everything in data collections.)
+
+
 ![github-medium](https://github.com/Bot-Weeb/Coursera_Capstone1/blob/main/assets/map.JPG)
 
 # Location, Business Understanding, and Results
