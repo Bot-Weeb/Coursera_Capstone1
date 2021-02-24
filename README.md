@@ -21,7 +21,7 @@ The starting point is to scrape data. For this project we utilized "https://en.w
 To learn about venues we utilize the Foursquare API as it is a great free api for developers.
 
 
-##Foursquare API##
+# Foursquare API
 
 Foursquare has call functions that let you learn about different venues and their locations. Theese call functions include latitude, longitude, venue names, and venue categories.
 
